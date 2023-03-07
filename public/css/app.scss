@@ -8,7 +8,6 @@
 .container {
   width: 980px;
   margin: 0 auto;
-  text-align: center;
   padding: 20px;
 }
 
@@ -39,6 +38,15 @@ article {
 @media (max-width: 600px) {
   .container {
     width: 95%;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 800px) {
+  .container {
+    width: 50%;
   }
 
   h1 {
